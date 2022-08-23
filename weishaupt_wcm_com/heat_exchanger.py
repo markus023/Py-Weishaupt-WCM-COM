@@ -15,7 +15,7 @@ TEMP = 2
 DECIMAL_VALUE = 3
 
 # ID, Name, Value/Temp
-QUERIES = [[3793, "Oil Meter", VALUE], [4176, "Load Setting", DECIMAL_VALUE], [12, "Outside Temperature", TEMP], [14, "Warm Water Temperature", TEMP], [3101, "Flow Temperature", TEMP], [325, "Flue Gas Temperature", TEMP], [5, "Room Temperature", TEMP], [274, "Operation Mode", VALUE], [8, "Mixed External Temperature"], [81, "Flame", VALUE], [1497, "Gas Valve 1", VALUE], [1498, "Gas Valve 2", VALUE], [466, "Pump", VALUE], [82, "Heating", VALUE], [83, "Warm Water", VALUE], [1, "Error", VALUE], [373, "Operation Phase", VALUE]]
+QUERIES = [[3793, "Oil Meter", VALUE], [4176, "Load Setting", DECIMAL_VALUE], [12, "Outside Temperature", TEMP], [14, "Warm Water Temperature", TEMP], [3101, "Flow Temperature", TEMP], [325, "Flue Gas Temperature", TEMP], [5, "Room Temperature", TEMP], [274, "Operation Mode", VALUE], [8, "Mixed External Temperature", TEMP], [81, "Flame", VALUE], [1497, "Gas Valve 1", VALUE], [1498, "Gas Valve 2", VALUE], [466, "Pump", VALUE], [82, "Heating", VALUE], [83, "Warm Water", VALUE], [1, "Error", VALUE], [373, "Operation Phase", VALUE]]
 
 
 def getTemperture(lowByte, highByte):
