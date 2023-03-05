@@ -6,8 +6,8 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="weishaupt-wcm-com",
     version="0.0.12",
-    author="Philip Schmiegelt, Pieter Hamels",
-    author_email="philip@schmiegelt.it, pieter@hamels.be",
+    author="Markus Kahle, Philip Schmiegelt, Pieter Hamels",
+    author_email="markus@mac.com, philip@schmiegelt.it, pieter@hamels.be",
     description="Interfacing the Weishaupt WCM-COM module",
     long_description=long_description,
     long_description_content_type="text/markdown",
